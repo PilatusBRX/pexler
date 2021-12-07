@@ -8,9 +8,9 @@
 
 ## Instalação
 
-1) Obtenha a key em https://www.pexels.com/login/
+1) Obtenha o token em https://www.pexels.com/login/
 
-2) Cole a key no arquivo "api" que fica na pasta "service"
+2) Cole o token no arquivo "api" que fica na pasta "service"
 <br/>
 <img align="center" src="./screenshot/screen1.png"></img>
 <br/>
