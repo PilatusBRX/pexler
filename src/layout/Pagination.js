@@ -77,7 +77,7 @@ function Pagination({ pages = 10, setCurrentPage }) {
         className={`${currentButton === 1 ? 'disabled' : ''}`}
         onClick={() => setCurrentButton(prev => prev <= 1 ? prev : prev - 1)}
       >
-      <i class="fas fa-chevron-left"></i>
+      <i className="fas fa-chevron-left"></i>
       </Link>
 
       {arrOfCurrButtons.map(((item, index) => {
@@ -97,7 +97,7 @@ function Pagination({ pages = 10, setCurrentPage }) {
         className={`${currentButton === numberOfPages.length ? 'disabled' : ''}`}
         onClick={() => setCurrentButton(prev => prev >= numberOfPages.length ? prev : prev + 1)}
       >
-      <i class="fas fa-chevron-right"></i>
+      <i className="fas fa-chevron-right"></i>
       </Link>
     </div>
   );
