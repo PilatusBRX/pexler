@@ -10,13 +10,13 @@
 
 1) Obtenha a key em https://www.pexels.com/login/
 
-2) Cole a key no arquivo "api" que fica na pasta "service". 
+2) Cole a key no arquivo "api" que fica na pasta "service"
 <br/>
 <img align="center" src="./screenshot/screen1.png"></img>
 <br/>
-3) Use yarn ou npm install para instalar as dependências;
+3) Use yarn ou npm install para instalar as dependências
 
-4) Use yarn start ou npm start para rodar a aplicação.
+4) Use yarn start ou npm start para rodar a aplicação
 
 
 ## O que foi usado:
