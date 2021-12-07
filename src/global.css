@@ -10,7 +10,8 @@ html{
   font-size: 100%;
 }
 body{  
-background: linear-gradient(90deg, rgb(245, 237, 186) 0%, rgb(227, 230, 183) 50%, rgb(237, 241, 217) 75%);
+background: linear-gradient(90deg, rgb(211, 200, 131) 0%, rgb(231, 233, 210) 
+50%, rgb(211, 200, 131) 75%);
 font-family: 'Poppins', sans-serif;
 }
 img{

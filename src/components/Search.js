@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 
-const SearchForm = ({loadImages, setAlert}) => {
-    const [searchTerm, setSearchTerm] = useState('');    
+const SearchForm = ({loadImages, setAlert}) => {  
 
+    const [searchTerm, setSearchTerm] = useState('');  
 
     const handleInput = (e) => {
       setSearchTerm(e.target.value);

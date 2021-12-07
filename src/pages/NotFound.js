@@ -5,7 +5,7 @@ const NotFound = () => {
       <h1>
         O termo ou a página que está procurando não existe.
       </h1>
-      <a href="/" back-to-home>
+      <a href="/">
         <i className='fa fa-home'></i> Voltar para home
       </a>
     </div>

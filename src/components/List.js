@@ -1,8 +1,8 @@
 import React from 'react';
 import Item from './Item';
 import Loading from '../layout/Loading';
+const List = ({ photos, loading }) => {  
 
-const List = ({ photos, loading }) => {
   if (loading) {
     return <Loading />;
   } else {

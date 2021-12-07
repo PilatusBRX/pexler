@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { getImages } from "../service/api";
+import React, {useContext } from 'react';
+import {GalleryContext} from '../contexts/GalleryContext';
 import Pagination from '../layout/Pagination'
 import List from './List'
 import SearchForm from './Search';
@@ -7,37 +7,19 @@ import Alert from '../layout/Alert';
 import NotFound from '../pages/NotFound';
 
 
-function Gallery() {
-  const [photos, setPhotos] = useState([])
-  const [loading, setLoading] = useState(false)
-  const [alert, setAlert] = useState(null);
-  const [currentPage, setCurrentPage] = useState(1)
-  const [photosPerPage] = useState(20)
+const  Gallery = () => {
 
-  useEffect(() => {      
-    loadImages(); 
-         
-  }, []);
+  const {
+      photos,
+      alert,
+      loadImages,
+      showAlert,
+      loading,
+      currentPhotos,
+      howManyPages,
+      setCurrentPage         
+      } = useContext(GalleryContext);
 
-//Load Images
-  const loadImages = async (searchTerm) => {
-    setLoading(true)  
-    const res = await getImages(searchTerm);
-    setPhotos(res.data.photos);  
-    setLoading(false)    
-  };
-
-  // Set Alert
-  const showAlert = (msg) => {
-    setAlert({ msg });
-    setTimeout(() => setAlert(null), 4000);
-  };
-
-  //Get current posts
-  const indexOfLastPost = currentPage * photosPerPage;
-  const indexOfFirstPost = indexOfLastPost - photosPerPage;
-  const currentPhotos = photos.slice(indexOfFirstPost, indexOfLastPost);
-  const howManyPages = Math.ceil(photos.length/photosPerPage);
   
   return (
     <>      
