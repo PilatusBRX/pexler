@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Pagination({ pages = 10, setCurrentPage }) {
 
@@ -71,33 +72,33 @@ function Pagination({ pages = 10, setCurrentPage }) {
     
     <div className="pagination">
     
-      <a
-        href="#"
+      <Link
+        to="#"
         className={`${currentButton === 1 ? 'disabled' : ''}`}
         onClick={() => setCurrentButton(prev => prev <= 1 ? prev : prev - 1)}
       >
-        Anterior
-      </a>
+      <i class="fas fa-chevron-left"></i>
+      </Link>
 
       {arrOfCurrButtons.map(((item, index) => {
         // eslint-disable-next-line
-        return <a
-          href="#"
+        return <Link
+          to="#"
           key={index}
           className={`${currentButton === item ? 'active' : ''}`}
           onClick={() => setCurrentButton(item)}
         >
           {item}
-        </a>
+        </Link>
       }))}
       
-      <a
-        href="#"
+      <Link
+        to="#"
         className={`${currentButton === numberOfPages.length ? 'disabled' : ''}`}
         onClick={() => setCurrentButton(prev => prev >= numberOfPages.length ? prev : prev + 1)}
       >
-        Próximo
-      </a>
+      <i class="fas fa-chevron-right"></i>
+      </Link>
     </div>
   );
 }
