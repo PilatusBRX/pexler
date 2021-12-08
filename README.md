@@ -2,36 +2,37 @@
 
 <h1 align="center">Pexler</h1>
 
-<br/>
+
+
 Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netlify.app/" target="_blank">Pexler</a>
 
 
-<br/>  
+
 
 <img align="center" src="./screenshot/screen.png"></img>
 
-<br/>
-<p align="center">Projeto <strong>de Galeria de Foros </strong> desenvolvido com ReactJS</p>
+
+<h2 align="center">Projeto <strong>de Galeria de Foros </strong> desenvolvido com ReactJS</h2>
 
 ## Instalação
 
-1) Obtenha a  chave em https://www.pexels.com/login/ para logar/se cadastrar e depois vá em "Image & Video API":
+1) Obtenha a  chave em https://www.pexels.com/login/ para logar/se cadastrar. E depois, acesse  "Image & Video API" no menu do site:
 
 
-<br/>
+
 
 <img align="center" src="./screenshot/screen3.png"></img>
-<br/>
+
 
 2) Cole a chave no arquivo "api" que fica na pasta "service"
 
 <img align="center" src="./screenshot/screen1.png"></img>
-<br/>
+
 
 
 
 3) Use yarn ou npm install para instalar as dependências
-<br/>
+
 
 4) Use yarn start ou npm start para rodar a aplicação
 
