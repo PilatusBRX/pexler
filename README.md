@@ -19,15 +19,15 @@ Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netl
 
 
 <br/>
-<img align="center" src="./screenshot/screen1.png"></img>
-<br/>
 
 <img align="center" src="./screenshot/screen3.png"></img>
 <br/>
 
 2) Cole a chave no arquivo "api" que fica na pasta "service"
 
+<img align="center" src="./screenshot/screen1.png"></img>
 <br/>
+
 
 
 3) Use yarn ou npm install para instalar as dependências
