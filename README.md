@@ -1,6 +1,9 @@
 
 
 <h1 align="center">Pexler</h1>
+
+<br/>
+Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netlify.app/" target="_blank">Pexler</a>
 <br/>  
 <img align="center" src="./screenshot/screen.png"></img>
 <br/>
@@ -8,9 +11,14 @@
 
 ## Instalação
 
-1) Obtenha o token em https://www.pexels.com/login/
+1) Obtenha a  chave em https://www.pexels.com/login/ para logar/se cadastrar e depois vá em "Image & Video API":
 
-2) Cole o token no arquivo "api" que fica na pasta "service"
+
+<br/>
+<img align="center" src="./screenshot/screen1.png"></img>
+<br/>
+
+2) Cole a chave no arquivo "api" que fica na pasta "service"
 <br/>
 <img align="center" src="./screenshot/screen1.png"></img>
 <br/>
@@ -29,7 +37,9 @@
 
 ## 
 
-Você pode baixar a imagem original ou acessar o link do artista.
+Você pode baixar a imagem original, acessar o link dela no site da Pexels e  acessar o link do artista.
+
+Você também pode acessar uma versão que foi hospedado na Netlify: https://pexler.netlify.app/
 
 
 

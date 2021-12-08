@@ -205,7 +205,9 @@ footer {
   border-top: 1px solid #bdbcbc;
   padding-top: 45px;
 }
-
+footer p{
+  font-size: 18px;
+}
 footer nav {
   display: flex;
   flex-direction: row;
@@ -299,6 +301,9 @@ footer  nav a:hover:after {
 .about p{
   margin-bottom: 10px;
 }
+
+/******** Media queries *******/
+
 @media only screen and (max-width: 500px){
 
   main{
@@ -308,6 +313,10 @@ footer  nav a:hover:after {
     width: 92.5%;
     padding: 25px 10px;
   }
+  footer p{
+    padding: 0 30px
+  }
+
   .pagination {
     display: flex;
     flex-wrap: wrap;
@@ -382,7 +391,7 @@ footer  nav a:hover:after {
     float: right;
   } 
  .container{
-   max-width: 1160px;
+   max-width: 1180px;
    padding: 100px;
  }
  .logo-container{
