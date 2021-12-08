@@ -16,7 +16,7 @@ Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netl
 
 ## Instalação
 
-1) Obtenha a  chave em https://www.pexels.com/login/ para logar/se cadastrar. E depois, acesse  "Image & Video API" no menu do site:
+1) Obtenha a  chave em https://www.pexels.com/login/ para logar/se cadastrar. E depois, acesse  "Image & Video API" no menu do site e clique em Your API Key:
 
 
 
