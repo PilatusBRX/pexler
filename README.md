@@ -5,6 +5,7 @@
 <br/>
 Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netlify.app/" target="_blank">Pexler</a>
 <br/>  
+<br/>  
 <img align="center" src="./screenshot/screen.png"></img>
 <br/>
 <p align="center">Projeto <strong>de Galeria de Foros </strong> desenvolvido com ReactJS</p>
