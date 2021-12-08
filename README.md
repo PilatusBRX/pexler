@@ -12,7 +12,7 @@ Acesse a versão que foi hospedada na Netlify aqui: <a href="https://pexler.netl
 <img align="center" src="./screenshot/screen.png"></img>
 
 
-<h2 align="center">Projeto <strong>de Galeria de Foros </strong> desenvolvido com ReactJS</h2>
+<h2 align="center">Projeto <strong>de Galeria de Fotos </strong> desenvolvido com ReactJS</h2>
 
 ## Instalação
 
